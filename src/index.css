@@ -1,0 +1,32 @@
+:root {
+  --1: rgb(72, 85, 106);
+  --2: rgb(109, 127, 151);
+  --3: rgb(158, 175, 194);
+  --4: rgb(236, 242, 248);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--4);
+}
